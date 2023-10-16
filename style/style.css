@@ -25,7 +25,10 @@ h1{
 
 .flex{
     display: flex;
+}
 
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 .flex-columns{
@@ -61,12 +64,12 @@ section.container-70p{
 section.container-60p{    
     width: calc(1100px - 10%);
     margin: 0 auto;
-    height: 1100px;
+    padding: 3rem;
+    /* height: 1300px; */
 }
 
 div.container-title{
     height: 40%;
-    
 }
 
 div.container-jumbo{
@@ -85,14 +88,16 @@ div.second-jumbo{
 /* Section Jumbo - container 80%*/
 
 .container-column{
-    height: 900px;
+    /* height: 800px; */
+    padding: 3rem;
 }
 
 /* Section plans business */
 section.third-columns{
-    width: 100%
+    width: 100%;
 }
 
 .container-bot-info{
     padding: 3rem;
+    height: 400px;
 }
