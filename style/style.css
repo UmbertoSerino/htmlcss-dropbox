@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
 }
 
 
@@ -16,7 +17,36 @@ body{
     padding: .3rem .5rem;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
 
+.flex{
+    display: flex;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+section.container-60{
+    width: 60%;
+    margin: 0 auto;
+}
+
+section.container-50{
+    width: 50%;
+    margin: 0 auto;
+}
 
 
 /* Header - flex-spaceBW */
@@ -35,4 +65,37 @@ header{
 /* Main */
 
 /* Section Jumbo - container 80%*/
-.container-80
+section.bg-color-jumbo{
+    background-color: #8db2f1;
+    width: 100%;
+    height: 700px;
+}
+
+section.container-60{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container-column{
+    width: 100%;
+}
+
+div.first-column{
+    width: 60%;
+}
+
+div.first-column *{
+    margin: 1rem;
+}
+
+div.second-column{
+    width: 100%;
+}
+div.second-column img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+
