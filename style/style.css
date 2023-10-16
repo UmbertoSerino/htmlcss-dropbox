@@ -9,6 +9,18 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+
+.button-blue{
+    background-color: #0257E5;
+    color: white;
+    padding: .3rem .5rem;
+}
+
+
+
+
+/* Header - flex-spaceBW */
+
 #flex-header {
     display: flex;
     justify-content: space-between;
@@ -16,6 +28,11 @@ body{
 }
 
 header{
-    height: 70      px;
+    height: 70px;
     width: 100%;
 }
+
+/* Main */
+
+/* Section Jumbo - container 80%*/
+.container-80
