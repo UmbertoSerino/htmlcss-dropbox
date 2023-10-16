@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid magenta;
 }
 
 body{
@@ -14,40 +15,18 @@ body{
 .button-blue{
     background-color: #0257E5;
     color: white;
-    padding: .3rem .5rem;
+    /* padding: .3rem .5rem; */
 }
 
-.flex-column{
-    display: flex;
-    flex-direction: column;
-}
-
-.flex{
-    display: flex;
-}
 
 h1{
     font-size: 5rem;
 }
 
-.p-relative{
-    position: relative;
-}
+.flex{
+    display: flex;
 
-.p-absolute{
-    position: absolute;
 }
-
-section.container-60{
-    width: 60%;
-    margin: 0 auto;
-}
-
-section.container-50{
-    width: 50%;
-    margin: 0 auto;
-}
-
 
 /* Header - flex-spaceBW */
 
@@ -55,47 +34,40 @@ section.container-50{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-header{
     height: 70px;
-    width: 100%;
 }
 
 /* Main */
 
-/* Section Jumbo - container 80%*/
-section.bg-color-jumbo{
-    background-color: #8db2f1;
-    width: 100%;
-    height: 700px;
+section.bg-color-lightviolet{
+    background-color: #4D90FF;
+    padding: 3rem 0;
 }
 
-section.container-60{
-    width: 60%;
-    height: 100%;
+section.container-70p{
+    width: 70%;
     margin: 0 auto;
+    height: 800px;
 }
 
-.container-column{
-    width: 100%;
+div.container-title{
+    height: 40%;
+    
 }
 
-div.first-column{
+div.container-jumbo{
+    height: 60%;
+}
+
+div.info-section-1{
+    width: 40%;
+}
+
+div.info-section-2{
     width: 60%;
 }
 
-div.first-column *{
-    margin: 1rem;
-}
+/* Section Jumbo - container 80%*/
 
-div.second-column{
-    width: 100%;
-}
-div.second-column img{
-    width: 100%;
-    position: absolute;
-    top: 0;
-}
-
+/* Section plans business */
 
