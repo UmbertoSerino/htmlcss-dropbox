@@ -8,3 +8,14 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+#flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    height: 70      px;
+    width: 100%;
+}
