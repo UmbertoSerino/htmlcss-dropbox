@@ -54,6 +54,14 @@ p{
     flex-wrap: wrap;
 }
 
+.j-between{
+    justify-content: space-between;
+}
+
+.align-items{
+    align-items: center;
+}
+
 .container-columns{
     width: calc((100% / 3) - 2rem);
     font-size: 1rem;
@@ -98,8 +106,6 @@ header img{
     font-size: 1.2rem;
     padding: .5rem 1.1rem;
 }
-
-
 
 /* Main */
 
@@ -192,7 +198,9 @@ h2{
     margin-bottom: 2rem;
 }
 
-
+section.container-small a{
+    color: blue;
+}
 
 input {
     margin-right: .5rem;
@@ -260,23 +268,6 @@ section.container-small div.margin-bottom{
     margin-bottom: 2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Container cards */
 
 .container-cards{
@@ -287,6 +278,15 @@ section.container-small div.margin-bottom{
 .container-four-cards *{
     width: calc(100% / 3);
 }
+
+
+/* FAQ */
+
+section.FAQ > div{
+    padding: 3rem;
+    border-top: 1px solid black;
+}
+
 
 
 /* Footer */
