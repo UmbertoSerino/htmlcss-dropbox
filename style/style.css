@@ -58,6 +58,10 @@ p{
     justify-content: space-between;
 }
 
+.flex-j-center{
+    justify-content: center;
+}
+
 .align-items{
     align-items: center;
 }
@@ -323,7 +327,7 @@ div.card-center{
 }
 
 div.container-card-boxcenter{
-    height: 200px;
+    /* height: 200px; */
 }
 
 div.container-card-boxcenter img{
@@ -331,6 +335,10 @@ div.container-card-boxcenter img{
     padding:2.5rem;
 }
 
+div.card-center p{
+    padding: 2.5rem;
+
+}
 
 
 /* Second section four cards */
@@ -378,4 +386,9 @@ footer{
     background-color: black;
     height: 300px;
     color: white;
+}
+
+footer ul li{
+    list-style-type: none;
+    padding: .5rem 2rem;
 }
