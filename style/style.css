@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
+    min-width: 730px;
 }
 
 
@@ -34,6 +34,7 @@ body{
 h1{
     font-size: 4.7rem;
     padding-bottom: 2rem;
+    font-weight: 900;
 }
 
 h2{
@@ -77,57 +78,70 @@ div.plan-info{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin: 2rem 0; */
     height: 90px;
-    padding: 2rem;
 }
 
-header div.flex *{
-    padding: .5rem;
+header a{
+    padding: 0 1rem;
+}
+
+header img{
+    padding: 0 1.2rem;
 }
 
 .button-start{
-    width: 100px;
     font-size: 1.2rem;
+    padding: .5rem 1.1rem;
+}
+
+
+
+/* Main */
+
+/* Section Jumbo - container  big */
+
+section.bg-color{
+    background-color: #B3D0E7;
+}
+
+section.jumbotron{
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
+div.container-big{
+    max-width:1300px; 
+    margin: 0 auto;
 }
 
 .p-relative{
     position: relative;
+    top:92px
 }
 
-/* Main */
-
-/* Section Jumbo - container 70% */
-
-section.bg-color-lightviolet{
-    background-color: #b2cdf8;
-    padding: 2rem 0;
-}
-
-section.container-65p{
-    width: 65%; 
-    margin: 0 auto;
-}
 
 .class-checkbox{
     display: inline-block;
     margin-right: 2rem;
 }
 
-div.container-title{
-    height: 40%;
-    width: 100%;
-}
-
-
-div.first-jumbo{
+div.first-jumbo-30{
     width: 30%;
 }
 
-div.first-jumbo *{
+
+div.first-jumbo-30 *{
     margin-bottom: 2rem;
+    font-size: 1.2rem;
 }
 
-div.second-jumbo{
+div.first-jumbo-30 i{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+div.second-jumbo-70{
     width: 70%;
 }
 
@@ -151,7 +165,6 @@ div.container-jumbo i.fa-solid{
 
 main img{
     width: 100%;
-    height: 500px;
 }
 
 
