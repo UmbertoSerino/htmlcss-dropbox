@@ -41,7 +41,7 @@ h3{
     font-size: 1.6rem;
 }
 
-section.container-columns h3,
+div.container-columns h3,
 p{
     margin-bottom: 1.2rem;
 }
@@ -56,10 +56,13 @@ p{
 
 .container-columns{
     width: calc((100% / 3) - 2rem);
-    border: 1px solid rgba(0, 0, 0, 0.212);
     font-size: 1rem;
     margin-right: 2rem;
 }
+section.flex div.border{
+    border: 1px solid rgba(0, 0, 0, 0.212);
+}
+
 
 .container-bot-info{
     margin-top: 3rem;
@@ -109,6 +112,7 @@ section.bg-color{
 section.jumbotron{
     padding-top: 0;
     padding-bottom: 1rem;
+    margin-bottom: 8rem;
 }
 
 div.container-big{
@@ -158,8 +162,12 @@ div.second-jumbo-70{
 }
 
 .button-different{
-    padding: .5rem 1rem;
-    padding: .7rem 0;
+    padding: .8rem .88rem;
+    font-size: 1.19rem;
+}
+
+.button-different:hover{
+    background-color: lightgray;
 }
 
 div.container-jumbo i.fa-solid{
@@ -181,9 +189,9 @@ section.container-small{
 
 h2{
     font-size: 2.5rem;
-    margin-top: 8rem;
-    margin-bottom:3rem
+    margin-bottom: 2rem;
 }
+
 
 
 input {
@@ -193,10 +201,6 @@ input {
 
 div i{
     margin-right: 1rem;
-}
-
-section.third-columns{
-    /* width: 100%; */
 }
 
 div.plan-type{
@@ -209,7 +213,8 @@ i.fa-check{
     color: blue;
 }
 
-section.container-columns div{
+div.container-columns div,
+h3{
     padding: .7rem 2rem;
 }
 
@@ -226,6 +231,51 @@ div.column-bot div{
 section.colum-bot button{
     margin: 2rem;
 }
+
+
+/* Contanier partner */
+
+div.first-box{
+    width: 60%;
+}
+
+div.second-box{
+    width: 40%;
+    padding: 4rem;
+}
+
+div.second-box *{
+    margin-bottom: 2rem;
+}
+
+
+/* section list operation */
+
+div.container-columns img{
+    width: 100%;
+    
+}
+
+section.container-small div.margin-bottom{
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Container cards */
 
