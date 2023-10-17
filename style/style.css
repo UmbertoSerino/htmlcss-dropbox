@@ -397,3 +397,10 @@ span{
 footer hr{
     margin: 2rem 0;
 }
+
+hr{
+    width: 100px;
+    position: relative;
+    left: 50px;
+}
+
