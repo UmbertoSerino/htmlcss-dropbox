@@ -384,11 +384,16 @@ section.FAQ > div{
 /* Footer */
 footer{
     background-color: black;
-    height: 300px;
     color: white;
+    height: 400px;
 }
 
-footer ul li{
+footer ul li,
+span{
     list-style-type: none;
     padding: .5rem 2rem;
+}
+
+footer hr{
+    margin: 2rem 0;
 }
