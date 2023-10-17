@@ -305,6 +305,7 @@ div.single-card{
 
 .card-3{
     background-color: #0193CE;
+    align-items: center;
 }
 
 .card-4{
@@ -316,10 +317,23 @@ div.single-card{
 /* Section center card big */
 
 div.card-center{
-    background-color: rgb(224, 243, 173);
+    background-color: #F5F5F5;
     width: 100%;   
+    height: 100%;
 }
 
+div.container-card-boxcenter{
+    height: 200px;
+}
+
+div.container-card-boxcenter img{
+    width: 50%;
+    padding:2.5rem;
+}
+
+
+
+/* Second section four cards */
 .card-5{
     background-color: #D5001F;
 }
