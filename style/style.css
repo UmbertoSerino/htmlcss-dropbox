@@ -279,17 +279,25 @@ section.container-small div.margin-bottom{
 
 .container-four-cards {
     width: calc(100% / 3);
-    border: 1px solid blue;
+    min-width: 400px;
 }
 
 div.single-card{
-    height: 400px;
-    width: 400px;
+    height: 275px;
+    width: calc(100% /2);
+    display: flex;
+    justify-content: center;
 }
+
+.single-card img{
+    width: 50%;
+}
+/* First section four cards */
 
 .card-1{
     background-color: #A2D39B;
 }
+
 
 .card-2{
     background-color: #61072B;
@@ -302,6 +310,35 @@ div.single-card{
 .card-4{
     background-color: #FF1C1C;
 }
+
+
+
+/* Section center card big */
+
+div.card-center{
+    background-color: rgb(224, 243, 173);
+    width: 100%;   
+}
+
+.card-5{
+    background-color: #D5001F;
+}
+
+
+.card-6{
+    background-color: #B3D0E7;
+}
+
+.card-7{
+    background-color: #0D2481;
+}
+
+.card-8{
+    background-color: #FED930;
+
+}
+
+
 
 /* Dropbox con bottone */
 
