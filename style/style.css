@@ -37,12 +37,13 @@ h1{
     font-weight: 900;
 }
 
-h2{
-    font-size: 2.5rem;
+h3{
+    font-size: 1.6rem;
 }
 
-h3{
-    font-size: 2rem;
+section.container-columns h3,
+p{
+    margin-bottom: 1.2rem;
 }
 
 .flex{
@@ -55,7 +56,7 @@ h3{
 
 .container-columns{
     width: calc((100% / 3) - 2rem);
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.212);
     font-size: 1rem;
     margin-right: 2rem;
 }
@@ -120,12 +121,14 @@ div.container-big{
     top:92px
 }
 
-
 .class-checkbox{
     display: inline-block;
     margin-right: 2rem;
+    margin-bottom: 3rem;
 }
 
+
+/* Fatturazioni */
 div.first-jumbo-30{
     width: 30%;
 }
@@ -137,8 +140,8 @@ div.first-jumbo-30 *{
 }
 
 div.first-jumbo-30 i{
-    font-size: 3rem;
-    margin-top: 2rem;
+    font-size: 4rem;
+    margin-top: 1rem;
 }
 
 div.second-jumbo-70{
@@ -168,23 +171,25 @@ main img{
 }
 
 
-/* Container columns */
-section.container-55p{    
-    width: 55%;
+/* Container piani di abbonamento */
+section.container-small{    
+    max-width: 1200px;
     margin: 0 auto;
     padding: 3rem;
     /* height: 1300px; */
 }
 
-section.container-55p h2,
-input{
-    margin: 1.5rem 0;
+h2{
+    font-size: 2.5rem;
+    margin-top: 8rem;
+    margin-bottom:3rem
 }
 
-input span{
-    padding-right: 4rem;
 
+input {
+    margin-right: .5rem;
 }
+
 
 div i{
     margin-right: 1rem;
@@ -196,7 +201,7 @@ section.third-columns{
 
 div.plan-type{
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
     margin-bottom: 1.2rem;
 }
 
@@ -207,7 +212,6 @@ i.fa-check{
 section.container-columns div{
     padding: .7rem 2rem;
 }
-
 
 /* Section profile bot */
 div.column-bot{
