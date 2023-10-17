@@ -274,9 +274,7 @@ section.container-small div.margin-bottom{
 /* Container cards */
 
 .container-cards{
-    height: 600px;
     width: 100%;
-    border: 1px solid magenta;
 }
 
 .container-four-cards {
@@ -285,26 +283,25 @@ section.container-small div.margin-bottom{
 }
 
 div.single-card{
-    height: 300px;
-    width: 300px;
-    background-color: red;
-    border: 1px solid black;
+    height: 400px;
+    width: 400px;
 }
 
+.card-1{
+    background-color: #A2D39B;
+}
 
+.card-2{
+    background-color: #61072B;
+}
 
+.card-3{
+    background-color: #0193CE;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.card-4{
+    background-color: #FF1C1C;
+}
 
 /* Dropbox con bottone */
 
