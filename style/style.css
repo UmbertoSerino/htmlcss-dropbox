@@ -282,19 +282,20 @@ section.container-small div.margin-bottom{
 }
 
 .container-four-cards {
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     min-width: 400px;
 }
 
 div.single-card{
-    height: 275px;
-    width: calc(100% /2);
+    width: calc(100% / 2);
     display: flex;
     justify-content: center;
 }
 
 .single-card img{
     width: 50%;
+    filter: invert(1);
 }
 /* First section four cards */
 
@@ -378,6 +379,10 @@ section.jumbotron div.first-box h2{
 section.FAQ > div{
     padding: 3rem;
     border-top: 1px solid black;
+}
+
+section.FAQ div.flex:last-child{
+    border-bottom: 1px solid black;
 }
 
 
