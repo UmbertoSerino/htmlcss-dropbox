@@ -15,6 +15,8 @@ body{
 .button-blue{
     background-color: #0361FF;
     color: white;
+    font-family: 'Open Sans';
+    font-size: .9rem;
 }
 
 .button-blue:hover{
@@ -79,13 +81,13 @@ section.flex div.border{
 .container-bot-info{
     margin-top: 3rem;
     width: calc(100% - 2rem);
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.212);
 }
 
 div.plan-info{
     text-align: center;
-    border-bottom: 1px solid black;
-    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+    padding: .7rem;
 }
 
 /* Header - flex-spaceBW */
@@ -114,7 +116,7 @@ header img{
 
 .button-start{
     font-size: 1rem;
-    padding: 0.4em 0.9rem;
+    padding: 0.27em 0.9rem;
     margin-right: .3rem;
 }
 
@@ -129,7 +131,7 @@ section.bg-color{
 section.jumbotron{
     padding-top: 0;
     padding-bottom: 1rem;
-    margin-bottom: 8rem;
+    margin-bottom: 7rem;
 }
 
 /* container- BIG */
@@ -201,15 +203,19 @@ main img{
 /* Container piani di abbonamento */
 section.container-small,
 div.container-small{    
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 3rem;
     /* height: 1300px; */
 }
 
-h2{
+section.subscription-plan h2{
     font-size: 2.5rem;
     margin-bottom: 2rem;
+}
+
+section.subscription-plan div.link-buy{
+    font-size: .9rem;
 }
 
 section.container-small a{
@@ -219,7 +225,6 @@ section.container-small a{
 input {
     margin-right: .5rem;
 }
-
 
 div i{
     margin-right: 1rem;
@@ -231,12 +236,23 @@ div.plan-type{
     margin-bottom: 1.2rem;
 }
 
+.link-buy{
+    margin-bottom: 2rem;
+}
+
+section.subscription-plan hr{
+    color: gray;
+    color: rgba(0, 0, 0, 0.212);
+    margin-bottom: 2rem;
+}
+
+
 i.fa-check{
     color: blue;
 }
 
-div.container-columns div,
-h3{
+div.container-columns div
+{
     padding: .7rem 2rem;
 }
 
@@ -246,13 +262,16 @@ div.column-bot{
     margin: 0 auto;
 }
 
+
 div.column-bot div{
     margin: 2rem;
 }
 
 section.colum-bot button{
-    margin: 2rem;
+    margin: 2rem 1.2rem;
+    padding: .6rem 1.9rem;
 }
+
 
 
 /* Contanier partner */
@@ -394,11 +413,11 @@ footer{
 footer ul li,
 span{
     list-style-type: none;
-    padding: .5rem 2rem;
 }
 
 footer hr{
     margin: 2rem 0;
+    
 }
 
 hr{
