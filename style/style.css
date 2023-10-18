@@ -50,7 +50,7 @@ h3{
 hr{
     width: 100px;
     position: relative;
-    left: 50px;
+    left: 30px;
 }
 
 
@@ -85,7 +85,7 @@ p{
     margin-right: 2rem;
 }
 section.flex div.border{
-    border: 1px solid rgba(0, 0, 0, 0.212);
+    border: 1px solid #00000036;
 }
 
 
@@ -93,6 +93,10 @@ section.flex div.border{
     margin-top: 3rem;
     width: calc(100% - 2rem);
     border: 1px solid rgba(0, 0, 0, 0.212);
+}
+
+section.container-bot-info h3{
+    margin-bottom: 1.3rem;
 }
 
 div.plan-info{
@@ -233,8 +237,8 @@ section.subscription-plan div.link-buy{
 
 section.container-small a{
     color: blue;
-    display: block;
-    margin: 3rem 0;
+    display: inline-block;
+    margin-bottom: 1.5rem;
 }
 
 input {
@@ -251,12 +255,7 @@ div.plan-type{
     margin-bottom: 1.2rem;
 }
 
-.link-buy{
-    margin-bottom: 2rem;
-}
-
 section.subscription-plan hr{
-    color: gray;
     color: rgba(0, 0, 0, 0.212);
     margin-bottom: 2rem;
 }
@@ -461,9 +460,16 @@ footer ul{
     margin-bottom: 7rem;
 }
 
-footer span{
+footer div.container-big span{
     color: gray;
-    margin: 0 auto;
+}
+
+footer div.container-big i{
+    color: gray;
+}
+
+
+footer span{
     margin-top: 3rem;
     margin-bottom: 3rem;
     display: inline-block;
